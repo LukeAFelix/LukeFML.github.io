@@ -63,6 +63,22 @@ header ul li a.active
     background: #fff;
     color: #2b1055;
 }
+.front_logo {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+    grid-auto-rows: 1;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    border-radius: 20px black;
+}
+.front_logo * {
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+}
 
 section
 {
@@ -135,13 +151,23 @@ section img#Corner_Logo
     font-size: 1em;
     color: #fff;
 }
-.port
-{
-    margin-left: 65px;
-    position: center;
-    width: 90%;
-    height: 90%;
+.port {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+    grid-auto-rows: 1;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    border-radius: 20px black;
 }
+.port * {
+    width: 100%;
+    height: 90%px;
+    box-sizing: border-box;
+}
+
 
 footer {
     size: 1em;
