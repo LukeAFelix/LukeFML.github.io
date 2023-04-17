@@ -15,6 +15,7 @@ body
 
 header{
     position: absolute;
+    background-color: #1c0522;
     top: 0;
     left: 0;
     width: 100%;
@@ -133,6 +134,13 @@ section img#Corner_Logo
 {
     font-size: 1em;
     color: #fff;
+}
+.port
+{
+    margin-left: 65px;
+    position: center;
+    width: 90%;
+    height: 90%;
 }
 
 footer {
