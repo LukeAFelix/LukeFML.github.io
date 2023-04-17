@@ -151,7 +151,7 @@ section img .front_logo
     font-size: 1em;
     color: #fff;
 }
-.port {
+.portf {
     margin: 0 auto;
     max-width: 1000px;
     display: grid;
@@ -162,7 +162,7 @@ section img .front_logo
     padding-top: 30px;
     border-radius: 20px black;
 }
-.port * {
+.portf * {
     width: 100%;
     height: 90%px;
     box-sizing: border-box;
