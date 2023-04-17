@@ -110,7 +110,7 @@ section img
     object-fit: cover;
     pointer-events: none;
 }
-section img#Corner_Logo
+section img#front_logo
 {
     mix-blend-mode: screen;
 }
